@@ -3,4 +3,86 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif
-    }
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-center;
+    background-color: #FFFFFF; 
+}
+.box-menu {
+    width: 98vw;
+    height:15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+.menu-image{
+    width: 5vw;
+}
+.menu-nav{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu-nav :hover {
+    font-weight:800;
+}
+.link-menu{
+    text-decoration: none;
+}
+.search-btn{
+    width:15vw;
+    height:6.4vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border:#9767A9;
+    border-radius: 50px;
+    border-style: solid; 
+    background-color: #FFFFFF;
+    padding-left:0.5vw;
+    color: #9767A9;
+} 
+.image-btn{
+    padding-right: 0.5vw;
+} 
+.btn-social{
+    text-decoration: none;
+} 
+.container-background {
+    width:100%;
+    position: relative;
+}
+.container-background img {
+    width: 100%; 
+    position: relative;  
+}
+.tips-title {
+    width: 30%;
+    position: absolute;
+    top:16rem;
+    left: 7rem;
+    font-family:'Playfair Display SC', serif;
+    font-weight: 900;
+    font-size: 4.5rem;
+    color:#FFFFFF;
+    text-align: center;
+    
+}
+.tips-text {
+    width: 30%;
+    position: absolute;
+    top:19rem;
+    left: 45rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color:#FFFFFF;
+
+ 
+}
+
+
