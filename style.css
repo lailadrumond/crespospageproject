@@ -36,13 +36,14 @@ header{
     display: flex;
     justify-content:space-evenly;
     list-style: none;  
-    color:#9767A9;
 }
 .menu-nav :hover {
     font-weight:800;
 }
 .link-menu{
     text-decoration: none;
+    color:#9767A9;
+
 }
 .search-btn{
     width:15vw;
@@ -132,7 +133,6 @@ header{
 }
 .pic-steps1{
     width: 39vw;
-    height: 72vh;
     position: relative;
     bottom:8vh;
     left: 9vw;
@@ -140,7 +140,6 @@ header{
 }
 .pic-steps2{
     width: 39vw;
-    height: 72vh;
     position: relative;
     top: 15vh;
     left: 9.5vw;
