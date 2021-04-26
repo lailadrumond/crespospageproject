@@ -27,6 +27,8 @@ header{
     display: flex;
     justify-content:space-evenly;
     align-items: center;
+    
+
 }
 .menu-image{
     width: 5vw;
@@ -36,6 +38,8 @@ header{
     display: flex;
     justify-content:space-evenly;
     list-style: none;  
+    color:#9767A9;
+
 }
 .menu-nav :hover {
     font-weight:800;
