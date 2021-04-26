@@ -145,15 +145,14 @@ header{
 .pic-steps2{
     width: 39vw;
     position: relative;
-    top: 15vh;
-    left: 9.5vw;
+    top: 34vh;
+    left: 9vw;
 }
 .box-text-steps{
-    width: 25vw;
-    height: 50vh;
+    width: 24vw;
     background-color:#9767A9;
     position: relative;
-    bottom: 25vh;
+    bottom: 30vh;
     left:16vw;
   
 }  
@@ -161,17 +160,90 @@ header{
     font-family: 'Playfair Display', serif;
     color:#FFFFFF;
     font-size: 2rem;
-    font-weight: Heavy;
-    padding: 2.5%;
-    
+    font-weight: 900;  
+    text-align: left;
+    padding:3%;   
 }
 .paragraph-pic-steps{
     font-family: 'Montserrat', sans-serif;
     color:#FFFFFF;
     font-size:0.85rem;
     font-weight: 300;
-    padding: 3%;
+    top:2vh;
     opacity:1;
-    
-    
+    padding: 3%;
+    text-align:left
 }   
+.box-text-steps2{
+    width: 25vw;
+    background-color:#9767A9;
+    position: relative;
+    bottom: 37vh;
+    left:55vw;
+    padding:1%;
+}  
+.pic-steps5{
+    width: 39vw;
+    position: relative;
+    top:13vh;
+    left: 9vw;
+}
+.pic-steps6{
+    width: 39vw;
+    position: relative;
+    top:60vh;
+    left: 9vw;
+}
+.container-steps{
+  margin-top: -62vh;
+}
+.pic-steps7{
+    width: 39vw;
+    position: relative;
+    top:39vh;
+    left: 9vw;
+    
+}
+.pic-steps8{
+    width: 30vw;
+    position: relative;
+    top: 30vh;
+    left: 15vw;
+}
+.box-text-steps3{
+    width: 24vw;
+    background-color:#9767A9;
+    position: relative;
+    bottom: 28vh;
+    left:16vw;
+}
+.box-text-steps4{
+    width: 25vw;
+    background-color:#9767A9;
+    position: relative;
+    bottom: 6.5vh;
+    left:55vw;
+    padding:1%;
+}
+.box-text-steps5{
+    width: 24vw;
+    background-color:#9767A9;
+    position: relative;
+    bottom: 6vh;
+    left:16vw;
+}
+.box-text-steps6{
+    width: 25vw;
+    background-color:#9767A9;
+    position: relative;
+    top:10vh;
+    left:55vw;
+    padding:1%;
+}
+.box-text-steps7{
+    width: 24vw;
+    background-color:#9767A9;
+    position: relative;
+    top:20vh;
+    left:16vw;
+}
