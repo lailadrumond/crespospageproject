@@ -266,7 +266,6 @@ main{
 .box-pics-main{
     width:39vw;
     margin-left: 1%;
-    
 }
 .box-pics-main2{
     margin-left: 1%; 
@@ -291,26 +290,23 @@ main{
     color:#FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .arrow-footer{
-    width: vw;
-    font-size:1rem;
+    width: 10%;
+    height:;
+    font-size:1.2rem;
     color:#FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content:space-between;
+    align-items:center; 
 }
 .arrow-footer :hover{
     background-color: #FFFFFF;
-    height: 30vh;
-    opacity:1;
 }
-@media (max-width: 700px){
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;   
-}
+
