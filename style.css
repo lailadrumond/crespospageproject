@@ -55,20 +55,23 @@ img {
 }
 .search-btn{
     width:15vw;
-    height:6.4vh;
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
+    height:6vh;
     border:#9767A9;
     border-radius: 50px;
     border-style: solid; 
     background-color: #FFFFFF;
-    padding-left:0.5vw;
-    color: #9767A9;
-} 
-.image-btn{
-    padding-right: 0.5vw;
-} 
+    color: #9767A9; 
+    padding-right: 5%;    
+}
+.btn {
+    width:13vw ;
+    height: 5vh;
+    border:#9767A9;
+    border-style: solid; 
+    border-radius: 25px;
+    color: #9767A9; 
+    padding-right: 5vw;         
+}
 .btn-social{
     text-decoration: none;
 } 
@@ -146,9 +149,8 @@ main{
 .pic-steps1{
     width: 39vw;
     position: relative;
-    bottom:8vh;
+    bottom:5vh;
     left: 9vw;
-    
 }
 .pic-steps2{
     width: 39vw;
@@ -161,8 +163,7 @@ main{
     background-color:#9767A9;
     position: relative;
     bottom: 30vh;
-    left:16vw;
-  
+    left:16vw; 
 }  
 .title-pic-steps{
     width: 100%;
