@@ -34,7 +34,7 @@ img {
     
 
 }
-.menu-logo{
+.menu-image{
     width: 5vw;
 }
 .menu-nav{
@@ -52,6 +52,16 @@ img {
     text-decoration: none;
     color:#9767A9;
 
+}
+.search-btn{
+    width:15vw;
+    height:6vh;
+    border:#9767A9;
+    border-radius: 50px;
+    border-style: solid; 
+    background-color: #FFFFFF;
+    color: #9767A9; 
+    padding-right: 5%;    
 }
 .btn {
     width:13vw ;
@@ -301,54 +311,3 @@ a{
     background-color: #FFFFFF;
 }
 
-@media (max-width:1024px) {
-    .container-menu {
-        display: none;
-    }
-}
-@media (max-width: 1023px) {
-    main {
-    
-    display:block;
-    flex-wrap: wrap;
-    justify-content: center;
-     align-items: center;
-    
-   }
-}
-@media (max-width: 425px) {
-    .box-pics-steps {
-       display: block;
-       flex-wrap: wrap;
-       justify-content: center;
-       align-items: center;
-     }
-}
-@media (max-width:425px) {
-    img {
-        width: 100%;
-        display: block;
-    }
-}
-@media (max-width:425px) {
-    .background-seven-main{
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-}
-@media (max-width:425px) {
-    .container-steps {
-        width: 100%;
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-}
-@media (max-width:425px) {
-      .box-text-steps {  
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }
-}
